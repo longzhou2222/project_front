@@ -1,0 +1,47 @@
+.success-color {
+	color: #67c23a;
+	&:hover,
+	&:focus {
+		color: #81dc52;
+	}
+}
+.warning-color {
+	color: #e6a23c;
+	&:hover,
+	&:focus {
+		color: #ebb563;
+	}
+}
+.danger-color {
+	color: #f56c6c;
+	&:hover,
+	&:focus {
+		color: #f78989;
+	}
+}
+.el-table {
+	margin-top: 10px;
+}
+.el-pagination {
+	margin-top: 10px;
+	justify-content: center;
+}
+.el-dialog {
+	.el-dialog__body {
+		padding: 10px 15px;
+		.el-form {
+			.el-select {
+				width: 100%;
+			}
+		}
+	}
+	.el-dialog__footer {
+		padding-top: 0;
+	}
+}
+
+.search-wrap {
+	.el-input {
+		width: 150px;
+	}
+}
